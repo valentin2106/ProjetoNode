@@ -1,8 +1,9 @@
-const mongoose = require ('mongooose')
+const mongoose = require ('mongoose')
 
 
 
-mongoose.connect('mongodb+srv://dbUser:<dbUser>@cluster0.ywhuy.mongodb.net/<dbUser>?retryWrites=true&w=majority', { useMongoClient: true })
+mongoose.connect('mongodb+srv://dbUser:dbUser@cluster0.ywhuy.mongodb.net/mongodb?retryWrites=true&w=majority',{ useNewUrlParser: true })
+
 
 
 mongoose.Promise = global.Promise

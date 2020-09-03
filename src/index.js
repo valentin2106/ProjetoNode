@@ -3,7 +3,7 @@ const bodyParser = require('body-parser')
 
 const app = express ();
 
-//Aqui indico o uso do Bady-Parser
+//Aqui indico o uso do Body-Parser
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: false}))
 
