@@ -9,8 +9,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 
 // Aqui fica nossa rota 
-require('./controllers/authController')(app)
-
+require('./app/controllers/index')(app)
 
 
 app.listen(3000)
